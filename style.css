@@ -1,0 +1,6 @@
+.box01 {
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    box-shadow: rgba(158,88,67, 0.3);
+}
