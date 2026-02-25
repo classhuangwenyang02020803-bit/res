@@ -3,17 +3,17 @@
     width: 200px;
     height: 100px;
     box-shadow: rgba(158, 88, 67, 0.3);
-    background: linear-gradient(45deg, rgba(123, 68, 22), rgba(32, 185, 36));
-    margin-top: 150px;
-    margin-left: 150px;
-    padding-top: 40px;
+    background: linear-gradient(45deg, rgba(255,0,127), rgba(255, 0, 255));
+    margin-top: 80px;
+    margin-left: 500px;
+    padding-top: 2px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 30px;
     color: rgba(23, 55, 165, 0.4);
-    font-size: 15px;
-    font-weight: 900;
-    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
     letter-spacing: 6px;
 }
 
