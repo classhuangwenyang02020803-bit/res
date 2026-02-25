@@ -2,5 +2,29 @@
     box-sizing: border-box;
     width: 200px;
     height: 100px;
-    box-shadow: rgba(158,88,67, 0.3);
+    box-shadow: rgba(158, 88, 67, 0.3);
+    background: linear-gradient(45deg, rgba(123, 68, 22), rgba(32, 185, 36));
+    margin-top: 150px;
+    margin-left: 150px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    color: rgba(23, 55, 165, 0.4);
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 6px;
+}
+
+.box01:hover {
+    background: linear-gradient(90deg, rgba(55, 32, 91, 0.6), rgba(87, 22, 63, 0.2));
+
+    transform: scale(1.2) rotate(720deg) translateX(30px), translateY(30px) translateZ(60px);
+
+    transition:
+                transform 1s,
+                box-shadow 1s,
+                background-color 1s,
+                color 1s;
 }
